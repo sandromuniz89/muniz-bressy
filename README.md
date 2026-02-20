@@ -86,7 +86,7 @@ muniz-bressy/
 |---|---|
 | Telefone | (21) 2771-6331 |
 | WhatsApp | (21) 98275-6754 |
-| E-mail | contato@munizebressy.com.br |
+| E-mail | jubressy@gmail.com |
 | Endereço | Av. Brigadeiro Lima e Silva, 2035 — Torre II, Sala 707 — Duque de Caxias/RJ |
 | Horário | Segunda a Sexta, 9h às 18h |
 | CNPJ | 32.915.781/0001-30 |
