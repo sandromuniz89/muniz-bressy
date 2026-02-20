@@ -3,43 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muniz & Bressy Assessoria Jurídica</title>
+    <title>Muniz & Bressy Assessoria Jurídica — Advogados em Duque de Caxias/RJ</title>
 
-    <!-- SEO -->
-    <meta name="description" content="Assessoria jurídica especializada em Duque de Caxias. Trabalhista, Previdenciário, Cível e Juizados Especiais. Consulta inicial gratuita.">
+    <!-- SEO aprimorado -->
+    <meta name="description" content="Escritório de advocacia em Duque de Caxias/RJ especializado em Direito Trabalhista, Previdenciário (INSS), Cível e Juizados Especiais. Consulta inicial gratuita. Atendemos toda a Baixada Fluminense.">
+    <meta name="keywords" content="advogado Duque de Caxias, advocacia Duque de Caxias, advogado trabalhista Baixada Fluminense, INSS Duque de Caxias, advogado previdenciário RJ, Muniz Bressy advocacia, consultoria jurídica Caxias, advogado família divórcio RJ">
+    <meta name="author" content="Muniz & Bressy Assessoria Jurídica">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="BR-RJ">
+    <meta name="geo.placename" content="Duque de Caxias">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="icon" type="image/png" href="favicon.png">
 
-    <!-- Open Graph / Preview de Links -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://munizebressy.netlify.app/">
-    <meta property="og:title" content="Muniz & Bressy Assessoria Jurídica">
-    <meta property="og:description" content="Assessoria jurídica especializada em Duque de Caxias. Trabalhista, Previdenciário, Cível e Juizados Especiais. Consulta inicial gratuita.">
-    <meta property="og:image" content="https://munizebressy.netlify.app/og-image.jpg">
+    <meta property="og:title" content="Muniz & Bressy Assessoria Jurídica — Duque de Caxias/RJ">
+    <meta property="og:description" content="Trabalhista · Previdenciário · Cível · Juizados Especiais. Advocacia em Duque de Caxias/RJ. Consulta gratuita.">
+    <meta property="og:image" content="https://i.imgur.com/vT4Q9QC.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale" content="pt_BR">
     <meta property="og:site_name" content="Muniz & Bressy Assessoria Jurídica">
 
-    <!-- WhatsApp / Twitter Card -->
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Muniz & Bressy Assessoria Jurídica">
-    <meta name="twitter:description" content="Assessoria jurídica especializada em Duque de Caxias. Consulta inicial gratuita.">
-    <meta name="twitter:image" content="https://munizebressy.netlify.app/og-image.jpg">
+    <meta name="twitter:description" content="Advocacia especializada em Duque de Caxias. Consulta inicial gratuita.">
+    <meta name="twitter:image" content="https://i.imgur.com/vT4Q9QC.png">
+
+    <!-- Schema.org — SEO local -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Muniz & Bressy Assessoria Jurídica",
+      "description": "Escritório de advocacia especializado em Direito Trabalhista, Previdenciário, Cível e Juizados Especiais em Duque de Caxias/RJ.",
+      "url": "https://munizebressy.netlify.app/",
+      "telephone": "+552127716331",
+      "email": "contato@munizebressy.com.br",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Brigadeiro Lima e Silva, 2035, Torre II, Sala 707",
+        "addressLocality": "Duque de Caxias",
+        "addressRegion": "RJ",
+        "postalCode": "25071-181",
+        "addressCountry": "BR"
+      },
+      "areaServed": "Baixada Fluminense",
+      "openingHours": "Mo-Fr 09:00-18:00"
+    }
+    </script>
 
     <!-- Fontes e Ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Lora:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Botão WhatsApp Flutuante -->
+    <!-- WhatsApp Flutuante -->
     <a href="https://wa.me/5521982756754" class="whatsapp-float" target="_blank" aria-label="Falar no WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
@@ -54,12 +82,17 @@
                     <div class="logo-subtitle">Assessoria Jurídica</div>
                 </div>
             </div>
-            <nav>
+            <nav id="main-nav">
                 <a href="#inicio">Início</a>
                 <a href="#atuacao">Atuação</a>
                 <a href="#sobre">O Escritório</a>
-                <a href="#contato">Contato</a>
+                <a href="#depoimentos">Clientes</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contato" class="nav-cta">Consulta Gratuita</a>
             </nav>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </header>
 
@@ -67,10 +100,31 @@
     <section id="inicio" class="hero">
         <div class="container">
             <div class="hero-content">
-                <div class="badge-free">CONSULTA INICIAL GRATUITA</div>
-                <h1>Excelência e Compromisso na Defesa dos Seus Direitos</h1>
-                <p>Assessoria jurídica especializada em Duque de Caxias. Transparência, agilidade e resultados reais para questões Trabalhistas, Cíveis, Previdenciárias e Juizados Especiais.</p>
-                <a href="https://wa.me/5521982756754" class="btn-cta">Agendar Atendimento</a>
+                <div class="badge-free">✓ CONSULTA INICIAL GRATUITA</div>
+                <h1>Seu direito defendido por quem conhece a Baixada Fluminense</h1>
+                <p>Escritório especializado em Duque de Caxias com atuação em Direito Trabalhista, Previdenciário, Cível e Juizados Especiais. Atendimento humanizado, linguagem clara e compromisso com resultados reais.</p>
+                <div class="hero-btns">
+                    <a href="https://wa.me/5521982756754?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta%20gratuita." class="btn-cta" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Agendar Atendimento
+                    </a>
+                    <a href="#atuacao" class="btn-secondary">Ver Especialidades</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <strong>OAB/RJ</strong>
+                        <span>178.291 — ativa</span>
+                    </div>
+                    <div class="hero-stat-sep"></div>
+                    <div class="hero-stat">
+                        <strong>Baixada Fluminense</strong>
+                        <span>área de atuação</span>
+                    </div>
+                    <div class="hero-stat-sep"></div>
+                    <div class="hero-stat">
+                        <strong>Atendimento Online</strong>
+                        <span>em todo o RJ</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -81,29 +135,28 @@
             <div class="section-title">
                 <h2>Nossas Especialidades</h2>
                 <div class="title-separator"></div>
-                <p>Soluções jurídicas estratégicas e personalizadas.</p>
+                <p>Soluções jurídicas estratégicas e personalizadas para cada situação.</p>
             </div>
-
             <div class="grid-atuacao">
                 <div class="card">
                     <i class="fas fa-landmark"></i>
                     <h3>Previdenciário</h3>
-                    <p>Aposentadorias, BPC/LOAS, auxílio-doença e planejamento previdenciário junto ao INSS.</p>
+                    <p>Aposentadorias, BPC/LOAS, auxílio-doença, revisão de benefícios e planejamento previdenciário junto ao INSS.</p>
                 </div>
                 <div class="card">
                     <i class="fas fa-briefcase"></i>
                     <h3>Trabalhista</h3>
-                    <p>Defesa completa do trabalhador: rescisões, horas extras, acidentes e assédio moral.</p>
+                    <p>Defesa completa do trabalhador: rescisões indevidas, horas extras, acidentes de trabalho e assédio moral.</p>
                 </div>
                 <div class="card">
                     <i class="fas fa-balance-scale"></i>
                     <h3>Cível & Família</h3>
-                    <p>Contratos, inventários, divórcios, pensão e ações de indenização por danos.</p>
+                    <p>Contratos, inventários, divórcios, pensão alimentícia, alvarás e ações de indenização por danos morais e materiais.</p>
                 </div>
                 <div class="card">
                     <i class="fas fa-gavel"></i>
                     <h3>Juizados Especiais</h3>
-                    <p>Resolução ágil para causas de menor complexidade e direito do consumidor.</p>
+                    <p>Resolução ágil para causas de menor complexidade, direito do consumidor e cobranças indevidas.</p>
                 </div>
             </div>
         </div>
@@ -112,24 +165,240 @@
     <!-- SOBRE -->
     <section id="sobre" class="about">
         <div class="container">
-            <div class="about-content">
-                <h2>Sobre o Escritório</h2>
-                <p>Quase tudo que almejamos, necessitamos de uma ajuda para que alcancemos nossos objetivos. Nós da Muniz e Bressy Assessorias estamos aqui justamente para te auxiliar na melhor forma a conseguir chegar a eles.</p>
-                <p>Acreditamos que o acesso à justiça deve ser claro, direto e humanizado. Nosso foco é traduzir o "juridiquês" e lutar pelo melhor resultado para você.</p>
+            <div class="about-grid">
+                <div class="about-img-col anim-card">
+                    <div class="about-img-box">
+            <div class="foto-initials"><img src="https://i.imgur.com/YyBCNKA.png" alt="Minha foto de perfil"></div>
+            <div class="foto-badge">Dra. Juliana Muniz Bressy</div>
+                    </div>
+                    <div class="about-credenciais">
+                        <div class="credencial-item">
+                            <i class="fas fa-id-badge"></i>
+                            <span>OAB/RJ 178.291</span>
+                        </div>
+                        <div class="credencial-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Graduada em Direito</span>
+                        </div>
+                        <div class="credencial-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Duque de Caxias/RJ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content anim-card">
+                    <div class="section-tag">O Escritório</div>
+                    <h2>Advocacia humanizada com foco em <em>resultados reais</em></h2>
+                    <p>O escritório Muniz & Bressy nasceu do compromisso de oferecer acesso à justiça de forma clara, direta e humanizada para os moradores da Baixada Fluminense. Acreditamos que todo cidadão merece uma defesa qualificada, independente da complexidade do caso.</p>
+                    <p>Nossa abordagem é traduzir o "juridiquês" em soluções práticas — acompanhando cada cliente de forma próxima, transparente e estratégica do início ao fim do processo.</p>
+                    <div class="about-valores">
+                        <div class="valor-item">
+                            <div class="valor-icon"><i class="fas fa-handshake"></i></div>
+                            <div>
+                                <strong>Atendimento Humanizado</strong>
+                                <span>Cada caso tratado com atenção e empatia.</span>
+                            </div>
+                        </div>
+                        <div class="valor-item">
+                            <div class="valor-icon"><i class="fas fa-comments"></i></div>
+                            <div>
+                                <strong>Comunicação Transparente</strong>
+                                <span>Você sempre sabe o andamento do seu processo.</span>
+                            </div>
+                        </div>
+                        <div class="valor-item">
+                            <div class="valor-icon"><i class="fas fa-trophy"></i></div>
+                            <div>
+                                <strong>Foco em Resultados</strong>
+                                <span>Estratégia jurídica orientada ao seu objetivo.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="lawyer-info">
-                    <p class="lawyer-role">Responsável Técnica:</p>
-                    <strong>Dra. Juliana Muniz Bressy</strong> | <span>OAB RJ178291</span>
+    <!-- DEPOIMENTOS -->
+    <section id="depoimentos" class="depoimentos-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>O que dizem nossos clientes</h2>
+                <div class="title-separator"></div>
+                <p>A confiança de quem já foi atendido fala por nós.</p>
+            </div>
+            <div class="depoimentos-grid">
+                <div class="dep-card anim-card">
+                    <div class="dep-stars">★★★★★</div>
+                    <p>"A Dra. Juliana resolveu meu problema com o INSS em tempo recorde. Fui negado duas vezes antes de chegar aqui. Profissional, atenciosa e sempre me explicou tudo com clareza."</p>
+                    <div class="dep-autor">
+                        <div class="dep-avatar">R</div>
+                        <div>
+                            <strong>Roberto S.</strong>
+                            <span>Caso Previdenciário — BPC/LOAS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dep-card anim-card">
+                    <div class="dep-stars">★★★★★</div>
+                    <p>"Fui demitido sem receber o que era devido. O escritório entrou com a ação e conseguiu tudo que eu tinha direito. Recomendo demais para qualquer trabalhador da região."</p>
+                    <div class="dep-autor">
+                        <div class="dep-avatar">M</div>
+                        <div>
+                            <strong>Marcos A.</strong>
+                            <span>Caso Trabalhista — Rescisão Indevida</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dep-card anim-card">
+                    <div class="dep-stars">★★★★★</div>
+                    <p>"Precisei resolver um inventário complicado e o atendimento foi impecável. Transparência total, sem surpresas e com um resultado excelente para toda a família."</p>
+                    <div class="dep-autor">
+                        <div class="dep-avatar">A</div>
+                        <div>
+                            <strong>Ana C.</strong>
+                            <span>Caso Cível — Inventário</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Perguntas Frequentes</h2>
+                <div class="title-separator"></div>
+                <p>Respostas para as dúvidas mais comuns dos nossos clientes.</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-pergunta">
+                        A consulta inicial é realmente gratuita?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-resposta">
+                        <p>Sim! A primeira consulta é totalmente gratuita e sem compromisso. Nela avaliamos o seu caso, explicamos as possibilidades jurídicas e apresentamos as melhores estratégias para o seu problema.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-pergunta">
+                        O escritório atende somente em Duque de Caxias?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-resposta">
+                        <p>Atendemos presencialmente em Duque de Caxias, mas também realizamos consultas online para clientes de toda a Baixada Fluminense e demais municípios do Rio de Janeiro.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-pergunta">
+                        Quanto tempo leva um processo trabalhista?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-resposta">
+                        <p>Trabalhamos da melhor forma para que o êxito venha o quanto antes e o processo seja o mais célere possível</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-pergunta">
+                        Posso resolver meu benefício do INSS sem advogado?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-resposta">
+                        <p>Tecnicamente sim, mas pedidos sem acompanhamento profissional têm uma taxa muito maior de indeferimento. Com um advogado especializado, a documentação é preparada corretamente, aumentando significativamente suas chances de aprovação.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <div class="title-separator"></div>
+                <p>Agende sua consulta gratuita agora mesmo. Respondemos em até 24 horas.</p>
+            </div>
+            <div class="contato-grid">
+                <div class="contato-info anim-card">
+                    <div class="contato-item">
+                        <div class="contato-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <a href="https://wa.me/5521982756754" target="_blank">(21) 98275-6754</a>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <strong>Telefone</strong>
+                            <a href="tel:+552127716331">(21) 2771-6331</a>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <strong>E-mail</strong>
+                            <a href="mailto:jubressy@gmail.com">jubressy@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <strong>Endereço</strong>
+                            <span>Av. Brigadeiro Lima e Silva, 2035<br>Torre II, Sala 707 — Duque de Caxias/RJ</span>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <strong>Horário</strong>
+                            <span>Segunda a Sexta, 9h às 18h</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5521982756754?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta%20gratuita." target="_blank" class="btn-cta btn-wpp">
+                        <i class="fab fa-whatsapp"></i> Agendar pelo WhatsApp
+                    </a>
+                </div>
+                <div class="contato-form anim-card">
+                    <form id="form-contato" action="https://formspree.io/f/mdallyvv" method="POST">
+                        <div class="form-group">
+                            <label for="nome">Seu Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Como posso te chamar?" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone / WhatsApp</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(21) 99999-9999" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="assunto">Área Jurídica</label>
+                            <select id="assunto" name="assunto">
+                                <option value="">Selecione a área do seu caso</option>
+                                <option value="Previdenciário">Previdenciário (INSS)</option>
+                                <option value="Trabalhista">Trabalhista</option>
+                                <option value="Cível">Cível & Família</option>
+                                <option value="Juizados">Juizados Especiais</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Descreva seu caso</label>
+                            <textarea id="mensagem" name="mensagem" placeholder="Conte brevemente sobre sua situação..." rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Solicitar Consulta Gratuita →</button>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- RODAPÉ -->
-    <footer id="contato">
+    <footer>
         <div class="container">
             <div class="footer-grid">
-
                 <div class="footer-item">
                     <div class="logo-container footer-logo">
                         <div class="logo-icon">MB</div>
@@ -141,28 +410,25 @@
                     <p>CNPJ: 32.915.781/0001-30</p>
                     <p>Compromisso ético e resultados efetivos na Baixada Fluminense.</p>
                 </div>
-
                 <div class="footer-item">
                     <h4>Contatos</h4>
                     <a href="tel:+552127716331"><i class="fas fa-phone-alt"></i> (21) 2771-6331</a>
-                    <a href="https://wa.me/5521982756754"><i class="fab fa-whatsapp"></i> (21) 98275-6754</a>
-                    <a href="mailto:contato@munizebressy.com.br"><i class="fas fa-envelope"></i> contato@munizebressy.com.br</a>
+                    <a href="https://wa.me/5521982756754" target="_blank"><i class="fab fa-whatsapp"></i> (21) 98275-6754</a>
+                    <a href="mailto:jubressy@gmail.com"><i class="fas fa-envelope"></i> jubressy@gmail.com</a>
                 </div>
-
                 <div class="footer-item">
                     <h4>Endereço</h4>
-                    <p><i class="fas fa-map-marker-alt"></i> Av. Brigadeiro Lima e Silva, 2035<br>Torre II, Sala 707 - Duque de Caxias/RJ<br>CEP: 25.071-181</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Brigadeiro Lima e Silva, 2035<br>Torre II, Sala 707 — Duque de Caxias/RJ<br>CEP: 25.071-181</p>
+                    <p style="margin-top:12px"><i class="fas fa-clock"></i> Seg–Sex: 9h às 18h</p>
                 </div>
-
             </div>
-
             <div class="copyright">
-                &copy; 2026 Muniz & Bressy Assessoria Jurídica. Todos os direitos reservados.
+                &copy; <span id="ano-atual"></span> Muniz & Bressy Assessoria Jurídica. Todos os direitos reservados.
+                <br><small>OAB/RJ 178.291 — Dra. Juliana Muniz Bressy</small>
             </div>
         </div>
     </footer>
 
-    <!-- JS -->
     <script src="script.js"></script>
 </body>
 </html>
